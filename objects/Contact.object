@@ -430,6 +430,40 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Target_Programs__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Programs</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test 1</fullName>
+                    <default>false</default>
+                    <label>Test 1</label>
+                </value>
+                <value>
+                    <fullName>Test 2</fullName>
+                    <default>false</default>
+                    <label>Test 2</label>
+                </value>
+                <value>
+                    <fullName>Test 3</fullName>
+                    <default>false</default>
+                    <label>Test 3</label>
+                </value>
+                <value>
+                    <fullName>Test 4</fullName>
+                    <default>false</default>
+                    <label>Test 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
